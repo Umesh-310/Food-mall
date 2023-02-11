@@ -1,0 +1,87 @@
+
+body{
+  background-color: #282c34;
+  margin-bottom: 41%;
+}
+.popup {
+    position:absolute;
+    border-radius: 20PX;
+    box-shadow: 5px 10px 20px #1d1c1c;
+    background-color: #343435;
+    color: aliceblue;  
+}
+.float-message{
+  text-align: center;
+  font-size: 18px;
+  z-index: 50;
+  padding: 30px;
+  width: 50%;
+  top: 33%;
+  left: 25%;
+ 
+}
+.nav-margin{
+  margin-right: 65%;
+}
+.card-value{
+  width: 50%;
+  top: 30%;
+  z-index: 90;
+  left: 25%;
+}
+.container {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    max-width: 64%;
+    margin: 0 18% 10% 18%;
+    position:absolute;
+    top: 67%;
+    transition: all 0.5s ease;
+  }
+
+  .main-image {
+  width: 100%;
+  height: 25rem;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem); */
+}
+.btn-outline-success span {
+  background: #198754;
+  color: white;
+  padding: 5px 10px;
+  margin-left: 3px;
+  border-radius: 15px;
+}
+.btn-outline-success:hover span{ 
+ background: white;
+  color: #198754;
+}
+.meal {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.meal h3 {
+  margin: 0 0 0.25rem 0;
+}
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #198754;
+  font-size: 1.25rem;
+}
+.description{
+  max-width: 600px;
+}
